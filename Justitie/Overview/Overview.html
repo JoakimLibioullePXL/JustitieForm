@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Justitie Zaken Overzicht</title>
+    <script src="Overview.js"></script>
+    <link rel="stylesheet" href="Overview.css">
+</head>
+<body>
+<header>
+    <h1>Justitie Zaken Overzicht</h1>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="../Overview/Overview.html">Zaken overzicht</a></li>
+            <li><a href="../Form/Form.html">Zaken formulier</a></li>
+        </ul>
+    </nav>
+</header>
+<table>
+    <thead>
+    <tr>
+        <td>Zaak ID</td>
+        <td>Naam advocaat</td>
+        <td>Naam verdachte</td>
+        <td>Naam agent</td>
+
+        <td>Aanklacht</td>
+        <td>Uitkomst aanklacht</td>
+        <td>Duur zaak</td>
+        <td>Verloop van de zaak</td>
+    </tr>
+    </thead>
+</table>
+<div id="outputCases">
+</div>
+<footer>
+    <input id="case_ID_Input" type="text" placeholder="ID Zaak">
+    <input id="button_delete_case" type="button" value="Zaak verwijderen">
+</footer>
+</body>
+</html>

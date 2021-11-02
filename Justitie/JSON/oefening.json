@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "nameLawyer": "Jenny Santiago",
+      "nameSuspect": "Ashlynn Santiago",
+      "nameAgent": "Nick Boos",
+      "charge": "Poging doodslag",
+      "outcomeCharge": "Vrijspraak",
+      "time": "1u50",
+      "courseOfTheCase": "De agenten kwamen al snel tot de conclusie dat het bewijs niet correct verkregen was.",
+      "id": 6
+    },
+    {
+      "nameLawyer": "Jenny Santiago",
+      "nameSuspect": "Bert Santiago",
+      "nameAgent": "Nick Boos",
+      "charge": "Moord",
+      "outcomeCharge": "Moord (70M & 35K)",
+      "time": "1u50",
+      "courseOfTheCase": "Het bewijs werd veel gediscussiërd en werd een wellis nietes spelletje. uiteindelijk kwam de Hovj erbij en legde alles uit en werd hij veroordeeld voor de maximum straf",
+      "id": 7
+    }
+  ]
+}

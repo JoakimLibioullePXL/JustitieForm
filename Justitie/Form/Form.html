@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="Form.css">
+    <script src="Form.js"></script>
+</head>
+<body>
+<header>
+    <h1>Justitie Zaken Formulier</h1>
+    <nav>
+        <ul>
+            <li><a href="../Overview/Overview.html">Zaken overzicht</a></li>
+            <li><a href="../Form/Form.html">Zaken formulier</a></li>
+        </ul>
+    </nav>
+</header>
+<form id="caseForm">
+    <div>
+        <label>Naam Advocaat:</label>
+        <input required="required" id="inputNameLawyer" type="text">
+    </div>
+    <div>
+        <label>Naam agent(en):</label>
+        <input required="required" id="inputAgent" type="text">
+    </div>
+    <div>
+        <label>Naam verdachte:</label>
+        <input required="required" id="inputSuspectName" type="text">
+    </div>
+
+    <div>
+        <label>Aanklacht tegen verdachte:</label>
+        <input required="required" id="inputCharge" type="text">
+    </div>
+    <div>
+        <label>Uitkomst van aanklacht:</label>
+        <input required="required" id="inputOutcomeCharge" type="text">
+    </div>
+    <div>
+        <label>Duur zaak:</label>
+        <input required="required" id="inputTime" type="text">
+    </div>
+    <div>
+        <label>Verloop van de zaak:</label>
+        <textarea required="required" id="inputCourseOfTheCase"></textarea>
+    </div>
+</form>
+
+<div>
+    <input id="ButtonSubmit" type="button" value="Verzend">
+</div>
+
+<div id="div_output">
+</div>
+</body>
+</html>
